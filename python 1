@@ -1,0 +1,8 @@
+# Basic arithmetic and type casting
+num_string = input("Enter a number to square: ")
+number = float(num_string)  # Convert string input to a decimal number
+
+# Calculate the square
+squared_result = number ** 2
+
+print(f"The square of {number} is {squared_result}")
